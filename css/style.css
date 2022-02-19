@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab";
+}
+
+/* ***** START ** Top Bar Section ***** */
+
+.top-bar-section {
+  background-color: #84c340;
+  color: white;
+}
+
+.top-bar {
+  max-width: 1280px;
+  padding: 6px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.top-bar-left {
+  font-size: 12px;
+  text-align: left;
+}
+
+.top-bar-right {
+  text-align: right;
+}
+
+.top-bar-right > a {
+  padding-right: 18px;
+  font-size: 18px;
+}
+
+.top-bar-right > a:hover {
+  color: gray;
+}
+
+@media (max-width: 600px) {
+  .top-bar-right {
+    text-align: center;
+  }
+
+  .top-bar-left {
+    text-align: center;
+  }
+
+  .top-bar {
+    padding: 22px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* ***** END ** Top Bar Section ***** */
